@@ -1,0 +1,16 @@
+{
+  "name": "react-node-ts-scaffolding",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client:build": "npm --prefix client run build",
+    "client:start": "npm --prefix client start",
+    "client:up": "npm run client:build && npm run client:start",
+    "server:build": "npm --prefix server run build",
+    "server:serve": "npm --prefix server run serve",
+    "server:up": "npm run server:build && npm run server:serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
